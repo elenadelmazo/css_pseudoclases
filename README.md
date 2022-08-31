@@ -10,7 +10,7 @@ I. Establezca el color de fondo en rojo cuando pase el mouse sobre un enlace.
 
 ```
 <style>
- .enlace:hover {
+ a:hover {
   background-color: red;
 }
 </style>
@@ -63,7 +63,7 @@ IV. Establezca el color de fondo en rojo, de cualquier elemento `<input>` que es
 
 ```
 <style>
- .input:focus {
+ input:focus {
   background-color: red;
 }
 </style>
