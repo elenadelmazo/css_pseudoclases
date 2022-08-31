@@ -1,0 +1,31 @@
+.ejercicio1 .enlace:hover {
+    background-color: red;
+}
+
+.ejercicio2 .master:hover {
+    background-color: red;
+}
+
+.ejercicio3 p:first-child {
+    background-color: red;
+}
+
+.ejercicio4 .input:focus {
+    background-color: red;
+}
+
+.ejercicio5 .intro::first-line {
+    background-color: red;
+}
+
+.ejercicio6 .intro::first-letter {
+    background-color: red;
+}
+
+.ejercicio7 p::before {
+    content: url(./assets/smiley.png); 
+}
+
+.ejercicio7 p::after {
+    content: url(./assets/smiley.png)
+}
