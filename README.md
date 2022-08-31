@@ -10,7 +10,7 @@ I. Establezca el color de fondo en rojo cuando pase el mouse sobre un enlace.
 
 ```
 <style>
- .enlace:hover {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -19,7 +19,7 @@ I. Establezca el color de fondo en rojo cuando pase el mouse sobre un enlace.
 
 <h1>This is a header.</h1>
 <p>This is a paragraph.</p>
-<a href="https://larnu.app/#/" class="enlace">This is a link.</a>
+<a href="https://larnu.app/#/">This is a link.</a>
 
 </body>
 ```
@@ -28,7 +28,7 @@ II. Establezca el color de fondo en rojo, cuando pase el mouse sobre elementos c
 
 ```
 <style>
- .master:hover {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -46,7 +46,7 @@ III. Establezca el color de fondo en rojo, de cualquier elemento `<p>` que sea e
 
 ```
 <style>
- p:first-child {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -59,11 +59,11 @@ III. Establezca el color de fondo en rojo, de cualquier elemento `<p>` que sea e
 </body>
 ```
 
-IV. Establezca el color de fondo en rojo, de cualquier elemento `<input>` que esté enfocado.
+VI. Establezca el color de fondo en rojo, de cualquier elemento `<input>` que esté enfocado.
 
 ```
 <style>
- .input:focus {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -72,9 +72,9 @@ IV. Establezca el color de fondo en rojo, de cualquier elemento `<input>` que es
 
 <form>
   Name:
-  <input type="text" name="fname" class="input">
+  <input type="text" name="fname">
   Age:
-  <input type="text" name="age" class="input">
+  <input type="text" name="age">
 </form>
 
 </body>
@@ -85,7 +85,7 @@ V. Establezca el color de fondo en rojo, de la primera línea del párrafo.
 ```
 <head>
 <style>
- .intro::first-line {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -108,7 +108,7 @@ VI. Establezca el color de fondo en rojo, para la primera letra del elemento `<p
 
 ```
 <style>
- .intro::first-letter {
+ tuCodigoAca {
   background-color: red;
 }
 </style>
@@ -131,11 +131,11 @@ VII. Inserte la imagen "smiley.gif" antes y después de cualquier elemento `<p>`
 
 ```
 <style>
-p::before {
-  content: url('smiley.gif');
+tuCodigoAca {
+  tuCodigoAca: url('smiley.gif');
 }
-p::after {
-  content: url('smiley.gif');
+tuCodigoAca {
+  tuCodigoAca: url('smiley.gif');
 }
 </style>
 
